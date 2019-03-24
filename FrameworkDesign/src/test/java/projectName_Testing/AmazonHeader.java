@@ -15,9 +15,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import projectName_Pages.HeaderPage;
-import projectName_Utils.InvokingBrowser;
+import projectName_Utils.Utils;
 
-public class AmazonHeader extends InvokingBrowser{
+public class AmazonHeader extends Utils{
 	HeaderPage headerPage;
 	JavascriptExecutor js;
 	public static Logger log= LogManager.getLogger(AmazonHeader.class.getName());

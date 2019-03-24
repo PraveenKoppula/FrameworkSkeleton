@@ -11,9 +11,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import projectName_Pages.FooterPage;
-import projectName_Utils.InvokingBrowser;
+import projectName_Utils.Utils;
 
-public class AmazonFooter extends InvokingBrowser{
+public class AmazonFooter extends Utils{
 	FooterPage footerPage;
 	JavascriptExecutor js;
 	public static Logger log= LogManager.getLogger(AmazonFooter.class.getName());

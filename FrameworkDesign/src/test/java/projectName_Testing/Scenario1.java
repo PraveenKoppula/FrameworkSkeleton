@@ -11,9 +11,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import projectName_Pages.FooterPage;
-import projectName_Utils.InvokingBrowser;
+import projectName_Utils.Utils;
 
-public class Scenario1 extends InvokingBrowser{
+public class Scenario1 extends Utils{
 	FooterPage footerPage;
 	JavascriptExecutor js;
 	public static Logger log= LogManager.getLogger(Scenario1.class.getName());
