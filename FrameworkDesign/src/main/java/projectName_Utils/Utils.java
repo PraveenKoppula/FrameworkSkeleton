@@ -16,7 +16,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Utils {
+import projectName_Resources.ExtentReport;
+
+public class Utils extends ExtentReport{
 
 	//INVOKING LOG4J
 	public static Logger log= LogManager.getLogger(Utils.class.getName());

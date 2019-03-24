@@ -20,7 +20,7 @@
 	</Appenders>
 
 	<Loggers>
-		<Root level="trace">
+		<Root level="debug">
 			<AppenderRef ref="File" />
 		</Root>
 	</Loggers>

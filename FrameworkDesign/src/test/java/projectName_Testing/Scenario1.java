@@ -10,6 +10,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.LogStatus;
+
 import projectName_Pages.FooterPage;
 import projectName_Utils.Utils;
 
@@ -32,6 +34,7 @@ public class Scenario1 extends Utils{
 		
 		log.info("Framework - test scenario1 - step1");
 		System.out.println("Framework - test scenario1 - step1");
+		test.log(LogStatus.PASS, "test pass-step1");
 		//Assert.assertEquals(actual, expected,"required msg when failed");
 	}
 	
@@ -40,6 +43,7 @@ public class Scenario1 extends Utils{
 	{	
 		log.info("Framework - test scenario1 - step2");
 		System.out.println("Framework - test scenario1 - step2");
+		test.log(LogStatus.PASS, "test pass-step2");
 	}
 	
 	@AfterTest
